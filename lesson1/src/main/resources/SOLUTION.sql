@@ -3,7 +3,7 @@ CREATE TABLE Student
     id BIGINT PRIMARY KEY,
     name VARCHAR(20),
     birthday DATE,
-    "group" INT
+    groupnumber INT
 );
 
 CREATE TABLE Subject
@@ -11,7 +11,7 @@ CREATE TABLE Subject
     id BIGINT PRIMARY KEY,
     name VARCHAR(20),
     description VARCHAR(55),
-    "group" INT
+    grade INT
 );
 
 CREATE TABLE PaymentType
